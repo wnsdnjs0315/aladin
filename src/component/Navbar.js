@@ -43,9 +43,6 @@ const Navbar = () => {
               <Link to='/sf' element={<ListSf />}>SF</Link>
             </li>
           </ul>
-          <div className='search-area'>
-          <input type="text" placeholder='상품검색' onKeyDown={(e) => search(e)}/>
-          </div>
       </div>
 
     </>
