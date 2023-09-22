@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import { Container } from 'react-bootstrap';
+import { Routes, Route } from 'react-router-dom';
+import Listpage from './pages/Listpage';
+import ListDetail from './pages/ListDetail';
+import Navbar from './component/Navbar'
+import ListFantasy from './pages/ListFantasy';
+import ListReasoning from './pages/ListReasoning';
+import ListSf from './pages/ListSf';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Listpage />} />
+        <Route path='/product/:id' element={<ListDetail />} />
+        <Route path='/fantasy' element={<ListFantasy />} />
+        <Route path='/reasoning' element={<ListReasoning />} />
+        <Route path='/sf' element={<ListSf />} />
+      </Routes>
+    </Container>
   );
 }
 

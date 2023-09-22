@@ -1,0 +1,94 @@
+{
+    "products":[
+        {
+            "id":0,
+            "img":"https://image.aladin.co.kr/product/31196/62/cover500/k272831051_1.jpg",
+            "title":"세상의 마지막 기차역",
+            "price":14000,
+            "choice":true,
+            "genre":"fantasy",
+            "writer":"무라세 다케시"
+
+        },
+        {
+            "id":1,
+            "img":"https://image.aladin.co.kr/product/31867/71/cover500/k132833528_2.jpg",
+            "title":"비가 오면 열리는 상점",
+            "price":16800,
+            "choice":true,
+            "genre":"fantasy",
+            "writer":"유영광"
+
+        },
+        {
+            "id":2,
+            "img":"https://image.aladin.co.kr/product/32357/20/cover500/k982935464_1.jpg",
+            "title":"달의 아이",
+            "price":17000,
+            "choice":false,
+            "genre":"fantasy",
+            "writer":"최윤석"
+
+        },
+        {
+            "id":3,
+            "img":"https://image.aladin.co.kr/product/32145/31/cover500/k952834116_1.jpg",
+            "title":"잘못된 장소 잘못된 시간",
+            "price":18000,
+            "choice":false,
+            "genre":"reasoning",
+            "writer":"질리언 매캘리스터"
+
+        },
+        {
+            "id":4,
+            "img":"https://image.aladin.co.kr/product/32404/73/cover500/k042935982_1.jpg",
+            "title":"6시 20분의 남자",
+            "price":17800,
+            "choice":true,
+            "genre":"reasoning",
+            "writer":"데이비드 발다치"
+
+        },
+        {
+            "id":5,
+            "img":"https://image.aladin.co.kr/product/32089/67/cover500/k522834190_1.jpg",
+            "title":"눈에 갇힌 외딴 산장에서",
+            "price":18800,
+            "choice":false,
+            "genre":"reasoning",
+            "writer":"히가시노 게이고"
+
+        },
+        {
+            "id":6,
+            "img":"https://image.aladin.co.kr/product/689/79/cover500/8959522066_2.jpg",
+            "title":"메트로 2033",
+            "price":14800,
+            "choice":true,
+            "genre":"SF",
+            "writer":"드미트리 글루코프스키"
+
+        },
+        {
+            "id":7,
+            "img":"https://image.aladin.co.kr/product/92/43/cover500/8989675766_2.jpg",
+            "title":"시간을 달리는 소녀",
+            "price":9800,
+            "choice":false,
+            "genre":"SF",
+            "writer":"쓰쓰이 야스타카"
+
+        },
+        {
+            "id":8,
+            "img":"https://image.aladin.co.kr/product/1215/5/cover500/8946418087_2.jpg",
+            "title":"마지막 행성",
+            "price":13500,
+            "choice":true,
+            "genre":"SF",
+            "writer":"존 스칼지"
+
+        }
+    ]
+}
